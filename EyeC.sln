@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{108C2664-6655-4276-90A1-D77E6C928C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeC.Infrastructure", "EyeC.Infrastructure\EyeC.Infrastructure.csproj", "{7043EB32-5A2C-4E6C-843E-480ED7A9EB45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7043EB32-5A2C-4E6C-843E-480ED7A9EB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7043EB32-5A2C-4E6C-843E-480ED7A9EB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7043EB32-5A2C-4E6C-843E-480ED7A9EB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7043EB32-5A2C-4E6C-843E-480ED7A9EB45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7043EB32-5A2C-4E6C-843E-480ED7A9EB45} = {108C2664-6655-4276-90A1-D77E6C928C90}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E01F0EB-CD40-4331-B039-8509E32A964E}
+	EndGlobalSection
+EndGlobal
