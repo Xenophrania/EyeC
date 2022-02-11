@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{108C2664-6655-4276-90A1-D77E6C928C90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeC.Infrastructure", "EyeC.Infrastructure\EyeC.Infrastructure.csproj", "{7043EB32-5A2C-4E6C-843E-480ED7A9EB45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EyeC.Infrastructure", "EyeC.Infrastructure\EyeC.Infrastructure.csproj", "{7043EB32-5A2C-4E6C-843E-480ED7A9EB45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeC.Domain", "EyeC.Domain\EyeC.Domain.csproj", "{DA07AB2B-66A2-44F0-8F0F-4ADDC4595A9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{7043EB32-5A2C-4E6C-843E-480ED7A9EB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7043EB32-5A2C-4E6C-843E-480ED7A9EB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7043EB32-5A2C-4E6C-843E-480ED7A9EB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA07AB2B-66A2-44F0-8F0F-4ADDC4595A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA07AB2B-66A2-44F0-8F0F-4ADDC4595A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA07AB2B-66A2-44F0-8F0F-4ADDC4595A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA07AB2B-66A2-44F0-8F0F-4ADDC4595A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7043EB32-5A2C-4E6C-843E-480ED7A9EB45} = {108C2664-6655-4276-90A1-D77E6C928C90}
+		{DA07AB2B-66A2-44F0-8F0F-4ADDC4595A9A} = {108C2664-6655-4276-90A1-D77E6C928C90}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E01F0EB-CD40-4331-B039-8509E32A964E}
